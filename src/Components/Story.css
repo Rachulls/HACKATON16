@@ -1,0 +1,44 @@
+.Contain-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 80px;
+}
+
+.Title {
+  color: #e1b164;
+  font-family: var(--headings-font);
+  font-size: 80px;
+}
+
+.Subtitle {
+  font-family: var(--body-font);
+}
+
+.Text {
+  display: flex;
+  width: 510px;
+  text-align: justify;
+  margin-top: 20px;
+  font-family: var(--body-font);
+}
+
+.Container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.Link {
+  color: #e1b164;
+  text-decoration: underline;
+  font-family: var(--body-font);
+}
+
+.Image-2 {
+  width: 300px;
+  height: 300px;
+}

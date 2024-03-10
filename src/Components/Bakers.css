@@ -1,0 +1,13 @@
+.Container-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 80px 0 80px 0;
+}
+
+.Image-Square-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}

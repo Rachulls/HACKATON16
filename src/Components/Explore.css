@@ -1,0 +1,27 @@
+.Container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 50px;
+    gap: 150px;
+}
+
+.Image-Item{
+    width: 200px;
+}
+
+.Image-Square{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 120px;
+    gap: 10px;
+}
+
+.Description-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}

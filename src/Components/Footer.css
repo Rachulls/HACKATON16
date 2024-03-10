@@ -1,0 +1,76 @@
+.Footer-Contain {
+  background-color: var(--dark-bg);
+  color: var(--white-color);
+  font-family: var(--body-font);
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.footerReview{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  padding-top: 20px;
+}
+
+.Input,
+.Send {
+  height: 30px;
+  width: 120px;
+}
+
+.Form-Send {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  gap: 5px;
+  padding: 20px 0 0 20px;
+}
+
+.Send {
+  cursor: pointer;
+}
+
+.reviewCards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  align-items: center;
+  column-count: 3;
+}
+
+.cardReview{
+  border: 1px solid white;
+  width: 290px;
+  height: 100px;
+  padding: 10px;
+}
+
+.stars{
+  width: 60px;
+  height: 10px;
+}
+
+.headerReview{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoReview{
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font);
+  font-size: 12px;
+  gap: 20px;
+}
+
+.name{
+  display: flex;
+  justify-content: end;
+}
+
+.delete{
+  cursor: pointer;
+}

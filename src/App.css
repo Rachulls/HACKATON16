@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap");
+
+:root {
+  --main-font: "Source Sans Pro", sans-serif;
+  --secondary-font: "Poiret One", cursive;
+  --body-font: "Cabin", sans-serif;
+  --headings-font: "Herr Von Muellerhoff", cursive;
+  --main-font-color-dark: #252525;
+  --secondary-font-color: #e1b164;
+  --body-font-color: #515151;
+  --white-color: #fff;
+  --dark-bg: #121212;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Image-1 {
+  width: 1263px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Navigation {
+  color: var(--white-color);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -470%);
+  gap: 180px;
+  font-family: var(--body-font);
+}
+
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.List-Elements li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+.Title-Contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-112%, -80%);
+  font-size: 30px;
+  color: var(--white-color);
+  font-family: var(--secondary-font);
+}
+
+.Order{
+	margin-top: 20px;
+	width: 120px;
+	height: 50px;
+	background-color: var(--secondary-font-color);
+	color: var(--white-color);
+	border: none;
+	cursor: pointer;
+}
